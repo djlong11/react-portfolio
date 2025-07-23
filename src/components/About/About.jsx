@@ -1,0 +1,34 @@
+import React from 'react';
+import styles from "./About.module.css"
+
+const About = () => {
+    return (
+        <section id="about" className={styles.container}>
+            <h2 className={styles.title}>ABOUT</h2>
+            <div className={styles.content}>
+                <img className={styles.aboutImage} src="/images/about/aboutimage.png" />
+                <ul className={styles.aboutItems}>
+                    <li className={styles.aboutItem}>
+                        <img src="/images/about/frontend.png" />
+                        <div className={styles.aboutItemText}>
+                            <h3>React Developer</h3>
+                            <p>I'm a frontend developer with experience in building web applications using React.js</p>
+                        </div>
+                    </li>
+                    <li className={styles.aboutItem}>
+                        <img src="/images/about/frontend.png" />
+                        <div className={styles.aboutItemText}>
+                            <h3>Software Project Manager</h3>
+                            <p>I have 9 years of experience as a Software Project Manager working closely with development teams, designers, product, accessibility and QA teams.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    )
+}
+
+export default About
+
+
+
