@@ -11,15 +11,17 @@ const About = () => {
                     <li className={styles.aboutItem}>
                         <img src="/images/about/frontend.png" />
                         <div className={styles.aboutItemText}>
-                            <h3>React Developer</h3>
-                            <p>I'm a frontend developer with experience in building web applications using React.js</p>
+                            <h3>React.js Developer</h3>
+                            <p>React Developer with a solid background in software project management
+                                and a growing portfolio of front-end development projects.</p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src="/images/about/frontend.png" />
                         <div className={styles.aboutItemText}>
                             <h3>Software Project Manager</h3>
-                            <p>I have 9 years of experience as a Software Project Manager working closely with development teams, designers, product, accessibility and QA teams.</p>
+                            <p>I have experience as a Software Project Manager working closely
+                                with development teams, designers, product, accessibility and QA teams.</p>
                         </div>
                     </li>
                 </ul>
