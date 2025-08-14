@@ -5,7 +5,7 @@ import styles from "./Navbar.module.css";
 
 
 const Navbar = () => {
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false); // State to track if the menu is open or closed
     return (
         <nav className={styles.navbar}>
             <a className={styles.title} href="/">Portfolio</a>

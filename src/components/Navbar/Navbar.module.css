@@ -67,6 +67,11 @@
         border-radius: 10px;
         background: rgb(33, 74, 150);
         padding: 25px 30px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, .25);
+    }
+
+    .menuItems a:hover {
+        color: var(--color-bg-hover); ;
     }
 
     .menuOpen {

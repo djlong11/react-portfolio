@@ -47,4 +47,7 @@
 
 .link:hover {
     background-color: rgb(2, 2, 75);
+    transform: translateX(2px);
+    transform: translateY(-2px);
+    transition: all 0.3s ease-in-out;
 }
